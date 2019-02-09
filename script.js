@@ -47,4 +47,4 @@ function show(data){
                     
         }
 
-$('#weather_image').html("")
+
