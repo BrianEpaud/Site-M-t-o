@@ -11,7 +11,7 @@ $('#validCity').click(function()                                                
 
         $.ajax({
 
-            url:'http://api.openweathermap.org/data/2.5/weather?q=' + city + "&units=metric" + "&APPID=ffe77524d7919ae2f90d39fbaa31f4eb" + "&lang=fr",
+            url:'https://api.openweathermap.org/data/2.5/weather?q=' + city + "&units=metric" + "&APPID=ffe77524d7919ae2f90d39fbaa31f4eb" + "&lang=fr",
             type:"GET",
             dataType:"jsonp",
             success:function(data){
