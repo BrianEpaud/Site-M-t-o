@@ -35,7 +35,7 @@ $('#validCity').click(function()                                                
 
 function show(data){
     return  "<h2 style='font-size:40px; font-weight: bold;'>Voici le temps à " + data.name +", " + data.sys.country +"</h2>" +   
-            "<h3 style='padding-left:40px;'><strong>État</strong>: <img src='http://openweathermap.org/img/w/"+data.weather[0].icon+".png'> "+ data.weather[0].description+"</h3>" +
+            "<h3 style='padding-left:40px;'><strong>État</strong>: <img src='https://openweathermap.org/img/w/"+data.weather[0].icon+".png'> "+ data.weather[0].description+"</h3>" +
             "<h3 style='padding-left:40px;'><strong>Température</strong>: "+ data.main.temp +"&deg;C</h3>" +
             "<h3 style='padding-left:40px;'><strong>Pression Atmosphérique</strong>: "+ data.main.pressure  +" hPa</h3>" +
             "<h3 style='padding-left:40px;'><strong>Humidité</strong>: "+ data.main.humidity  +"%</h3>" +
