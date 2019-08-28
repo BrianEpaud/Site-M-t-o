@@ -43,14 +43,15 @@ ion-icon{
 .weather_image{
     background-color: grey;
     width: 100%;
-    height: 500px;
+    height: 100%;
 }
 
 #weather_description{
     background-color:whitesmoke;
     width: 100%;
-    height: 500px;
-
+    height: 100%;
+    padding-top: 50px!important;
+    padding-bottom: 80px!important
 }
 
 
