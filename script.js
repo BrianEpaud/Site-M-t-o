@@ -19,7 +19,7 @@ $('#validCity').click(function()                                                
                 
                 $('#weather_description').html(widget);
                 $('#city').val('');
-                console.log(data.weather);
+                
                 
                 if (data.weather[0].icon === "01d") {
                     document.getElementById('weather_image').innerHTML = '<img width="100%" src=./images/sun.jpg> '
